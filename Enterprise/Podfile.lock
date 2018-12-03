@@ -1,0 +1,43 @@
+PODS:
+  - Cosmos (17.0.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - SVProgressHUD (2.2.5)
+
+
+DEPENDENCIES:
+  - Cosmos (~> 17.0)
+  - GoogleMaps
+  - GooglePlaces
+  - MagicalRecord
+  - SVProgressHUD
+
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cosmos
+    - GoogleMaps
+    - GooglePlaces
+    - MagicalRecord
+    - SVProgressHUD
+
+
+SPEC CHECKSUMS:
+  Cosmos: 309e489f21ffc91a1eeecfebef7f817cd2fcfba6
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+
+PODFILE CHECKSUM: 502a7f38f6519c56350c185183be8cb12ebb43f0
+
+COCOAPODS: 1.5.3

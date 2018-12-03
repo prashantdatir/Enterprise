@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BarcodeEntry" representedClassName="BarcodeEntry" syncable="YES">
+        <attribute name="scannedData" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventAddressInfo" representedClassName="CreateEventAddressInfo" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="address1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressTypeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventCallData" representedClassName="CreateEventCallData" syncable="YES">
+        <attribute name="callDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="callDateTimeEnd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="callerExtension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="callerExtension2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="callerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="callerPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="callerPhone2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="typeOfCaller" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventContact" representedClassName="CreateEventContact" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailUpdatesOK" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="extensionn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventCustDataInfo" representedClassName="CreateEventCustDataInfo" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="callbackLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="destinationTerminal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="dispatcher" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lesseeExtension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lesseeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lesseePhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="terminalId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventDriver" representedClassName="CreateEventDriver" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="coDriverName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="driverId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailUpdatesOK" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isDriverWithUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noRestriction" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone2Ext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneExt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textMessagesOK" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventLocation" representedClassName="CreateEventLocation" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="countryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destinationLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="domicileLoc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="hoursLeftDrive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="milesToDest" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originOfLoad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tripId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventNote" representedClassName="CreateEventNote" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noteTypeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventUnit" representedClassName="CreateEventUnit" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isRepairUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isValIdUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keyLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lesseePONumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repCodeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tire" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tow_Instructions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="towAddressId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="troubleCodeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uI_ParentEventUnitId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uI_ParentUnitNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unitInfId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="unitNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unitTypeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="vinNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventUnitUnitDetail" representedClassName="CreateEventUnitUnitDetail" syncable="YES">
+        <attribute name="actionTypeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="businessId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dotNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engineHours" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="eventUnitId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fuelFilterTypeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fuelTankLevelId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="haulTypeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="homeDomicile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hubReading" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isPriorityShipment" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="licensePlateNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loadContents" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loadWeightInImperialPounds" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="makeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mileage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reeferHours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shutdownTimeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transmissionTypeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unitYear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="voltage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventUnitUnitRental" representedClassName="CreateEventUnitUnitRental" syncable="YES"/>
+    <entity name="CreateEvetnUnitUnitNote" representedClassName="CreateEvetnUnitUnitNote" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="eventUnitId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unitNoteTypeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LoginResponse" representedClassName="LoginResponse" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="custCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="customerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="make" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mileage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="unitInfId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="unitNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BarcodeEntry" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="CreateEventAddressInfo" positionX="-63" positionY="-9" width="128" height="255"/>
+        <element name="CreateEventCustDataInfo" positionX="-54" positionY="99" width="128" height="225"/>
+        <element name="CreateEventCallData" positionX="-54" positionY="135" width="128" height="195"/>
+        <element name="CreateEventContact" positionX="-45" positionY="144" width="128" height="180"/>
+        <element name="CreateEventDriver" positionX="-36" positionY="153" width="128" height="285"/>
+        <element name="CreateEventLocation" positionX="-18" positionY="162" width="128" height="210"/>
+        <element name="CreateEventNote" positionX="0" positionY="171" width="128" height="120"/>
+        <element name="CreateEventUnit" positionX="18" positionY="180" width="128" height="330"/>
+        <element name="CreateEventUnitUnitDetail" positionX="36" positionY="189" width="128" height="450"/>
+        <element name="CreateEvetnUnitUnitNote" positionX="-9" positionY="135" width="128" height="150"/>
+        <element name="CreateEventUnitUnitRental" positionX="0" positionY="144" width="128" height="45"/>
+        <element name="LoginResponse" positionX="9" positionY="153" width="128" height="240"/>
+    </elements>
+</model>
